@@ -1,0 +1,34 @@
+
+
+/****** Object:  Table [dbo].[TNP2K_Kecamatan]    Script Date: 28/10/2019 2:29:58 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[TNP2K_Kecamatan](
+	[No] [int] NULL,
+	[Kecamatan] [varchar](255) NULL,
+	[Kode] [varchar](10) NULL,
+	[Desil_1A] [float] NULL,
+	[Desil_2A] [float] NULL,
+	[Desil_3A] [float] NULL,
+	[Desil_4A] [float] NULL,
+	[Jumlah_A] [float] NULL,
+	[Desil_1B] [float] NULL,
+	[Desil_2B] [float] NULL,
+	[Desil_3B] [float] NULL,
+	[Desil_4B] [float] NULL,
+	[Jumlah_B] [float] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
